@@ -102,6 +102,7 @@
         function selectImage(imageId, placeholderId) {
             currentImageId = imageId;
             currentPlaceholderId = placeholderId;
+            document.getElementById("fileInput").value = "";
             document.getElementById("fileInput").click(); // Open file explorer
         }
 
